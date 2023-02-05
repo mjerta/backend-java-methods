@@ -1,8 +1,15 @@
-# Template - Opdrachtbeschrijving ???
+# Backend Java: Methods
 
 ## Inleiding
 
-Dit project is gemaakt om als basis te dienen voor opdracht-projecten in GitHub, die uitgecheckt kunnen worden door studenten.
+Deze repository bevat oefeningen voor methods in Java.
+Neem eerst het hoofdstuk over methods door.
+
+Je gaat oefenen met diverse methods. 
+
+Je ziet in src/main/java 3 classes. Je kunt eerst oefenen met methods die geen parameters, of return type hebben.
+Daarna ga je oefenen met methods die een parameter hebben en als laatste komen oefeningen aan bod met methods die zowel
+parameters als een return type hebben.
 
 ## Voor je begint
 
@@ -18,7 +25,7 @@ Voer de opdracht code uit met:
 ./mvnw clean compile exec:java
 ```
 
-of 
+of
 
 ```shell
 mvnw.cmd clean compile exec:java
@@ -26,28 +33,14 @@ mvnw.cmd clean compile exec:java
 
 ### Uitvoeren vanuit Intellij
 
-Groene play-knop voor de `main` method klikken en 'Run...' kiezen. 
+Groene play-knop voor de `main` method klikken en 'Run...' kiezen.
+
+### Testen uitvoeren vanuit Intellij
+
+Groene play-knop voor de `MainTest` class in src/test/java klikken en 'Run 'MainTest'' kiezen.
 
 ## Opdracht
 
-Beschrijving van de opdracht: je gaat dit en dat maken en dit moet het doen.
+In iedere class vind je verdere uitleg over de opdrachten. Doorloop de opgaves in volgorde (A, B, C).
+Zorg ervoor dat de code compileert en dat de testen slagen.
 
-### Randvoorwaarden
-
-De opdrach moet voldoen aan de volgende voorwaarden:
-
-* Voorwaarde
-* Nog een voorwaarde
-* etc...
-
-### Stappenplan
-
-_Let op_ het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo goed weet waar je moet beginnen, kun je onderstaand stappenplan gebruiken
-
-* Doe eerst dit
-* Doe dan dat
-* etc...
-
-## Bonusopdracht
-
-Optioneel.
