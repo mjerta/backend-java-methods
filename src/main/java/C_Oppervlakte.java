@@ -25,7 +25,11 @@ public class C_Oppervlakte {
         return oppervlakteRechthoek(size,size);
     }
     public static int oppervlakteDoos(int length, int width, int size) {
-        return oppervlakteRechthoek(length, width) * size;
+        int topBottom = length * width * 2;
+        int sideOne = length * width * 2;
+        int sideTwo = length * width * 2;
+
+        return topBottom + sideOne + sideTwo;
     }
     public static int oppervlakteKubus(int size) {
         return oppervlakteVierkant(size) * 6;
