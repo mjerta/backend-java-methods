@@ -24,10 +24,10 @@ public class C_Oppervlakte {
     public static int oppervlakteVierkant(int size) {
         return oppervlakteRechthoek(size,size);
     }
-    public static int oppervlakteDoos(int length, int width, int size) {
+    public static int oppervlakteDoos(int length, int width, int height) {
         int topBottom = length * width * 2;
-        int sideOne = length * width * 2;
-        int sideTwo = length * width * 2;
+        int sideOne = length * height * 2;
+        int sideTwo = width * height * 2;
 
         return topBottom + sideOne + sideTwo;
     }

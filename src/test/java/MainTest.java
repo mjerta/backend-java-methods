@@ -43,7 +43,7 @@ public class MainTest {
         C_Oppervlakte.main(new String[]{});
         verify(mockedPrintStream).println("De oppervlakte van een rechthoek met lengte 2 en breedte 8 is 16");
         verify(mockedPrintStream).println("De oppervlakte van een vierkant met zijden van 5 cm is 25");
-        verify(mockedPrintStream).println("De oppervlakte van een rechthoek met lengte 2, breedte 8 en hoogte 5 is 132");
+        verify(mockedPrintStream).println("De oppervlakte van een doos met lengte 2, breedte 8 en hoogte 5 is 132");
         verify(mockedPrintStream).println("De oppervlakte van een kubus met zijden van 5 cm is 150");
     }
 }
